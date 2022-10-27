@@ -7,7 +7,7 @@ public class Tasks_11466766 {
     public static void main(String[] args) throws IOException {
 
     }
-    static void task25(){
+    static void task25_27422(){
             int count = 0;
             Map<Integer, ArrayList<Integer>> map = new HashMap<>();
             for (int i = 174457; i <= 174505; i++){
@@ -24,7 +24,7 @@ public class Tasks_11466766 {
                     System.out.println(map.get(i).get(0) + " " +map.get(i).get(1));
             }
         }
-    static void task27(String fileName) throws IOException {
+    static void task27_27424_not_correct(String fileName) throws IOException {
             String[] array = new String(new FileInputStream(new File("C:\\Users\\Яков Мануилов\\Desktop\\"+fileName+".txt")).readAllBytes()).replaceAll("\\r","").split("\\n");
             ArrayList<Integer> listOne = new ArrayList<>();
             ArrayList<Integer> listTwo = new ArrayList<>();
@@ -45,7 +45,7 @@ public class Tasks_11466766 {
             }
             System.out.println(summs);
         }
-    static void task26() throws IOException{
+    static void task26_35484() throws IOException{
             String[] array = new String(new FileInputStream(new File("C:\\Users\\Яков Мануилов\\Desktop\\26.txt")).readAllBytes()).replaceAll("\\r","").split("\\n");
             List<Integer> list = new ArrayList<>();
             for (int i = 1; i < array.length; i++)
@@ -65,7 +65,7 @@ public class Tasks_11466766 {
             }
             System.out.println("count = "+arifList.size()+" max = "+Collections.max(arifList));
         }
-    static void task17() throws IOException {
+    static void task17_37337() throws IOException {
             String[] array = new String(new FileInputStream(new File("C:\\Users\\Яков Мануилов\\Desktop\\17.txt")).readAllBytes()).replaceAll("\\r","").split("\\n");
             List<Integer> list = new ArrayList<>();
             for (String i : array)
@@ -88,7 +88,7 @@ public class Tasks_11466766 {
             }
             System.out.println("count = "+count+" max = "+max);
         }
-    static void task14() {
+    static void task14_13627() {
             long count = 0;
             BigInteger bigInt = new BigInteger("4").pow(511).add(new BigInteger("2").pow(511)).add(new BigInteger("-511"));
             String biteStr = bigInt.toString(2);
@@ -105,7 +105,7 @@ public class Tasks_11466766 {
                 return F(n - 1) * n;
             else return 0;
         }
-    static String task12(String str){
+    static String task12_18716(String str){
             while (str.contains("7777") || str.contains("3333")){
                 if (str.contains("3333"))
                     str = str.replaceFirst("3333","77");
@@ -114,7 +114,7 @@ public class Tasks_11466766 {
             }
             return str;
         }
-    static void task9() throws IOException {
+    static void task9_27526() throws IOException {
             String[] array = new String(new FileInputStream(new File("C:\\Users\\Яков Мануилов\\Desktop\\test_2.txt")).readAllBytes()).replaceAll("\\r", "").replaceAll(",",".").split("\t");
             ArrayList<Double> list = new ArrayList<>();
             int ii = 0;
@@ -139,7 +139,7 @@ public class Tasks_11466766 {
 
 
         }
-    static void task8(){
+    static void task8_7921(){
             Map<Integer,String> map = new HashMap<>();
             map.put(0,"Г");
             map.put(1,"О");
@@ -157,7 +157,7 @@ public class Tasks_11466766 {
                                 }
             System.out.println(count);
         }
-    static void executeTask5(){
+    static void executeTask5_13536(){
             int count = 0;
             for (Integer i = 1000; i < 10000; i++){
                 if (i % 2 != 0 && task5(i) == 414
@@ -179,7 +179,7 @@ public class Tasks_11466766 {
             Collections.sort(list);
             return Integer.parseInt(list.get(0) + "" + list.get(1));
         }
-    static void task2(){
+    static void task2_15970(){
         /*
     def task_2():
     print("y x w z")
