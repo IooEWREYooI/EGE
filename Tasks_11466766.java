@@ -180,16 +180,6 @@ public class Tasks_11466766 {
             return Integer.parseInt(list.get(0) + "" + list.get(1));
         }
     static void task2_15970(){
-        /*
-    def task_2():
-    print("y x w z")
-    for x in range(0, 2):
-        for y in range(0, 2):
-            for z in range(0, 2):
-                for w in range(0, 2):
-                    if not ((x and (not y)) or (y == z) or w):
-                        print(y, x, w, z)
-         */
             System.out.println("y x w z");
             for (int x = 0; x < 2; x++)
                 for (int y = 0; y < 2; y++)
@@ -199,12 +189,6 @@ public class Tasks_11466766 {
                                 System.out.println(y+" "+x+" "+w+" "+z);
                             }
                         }
-/*
-y x w z
-0 0 0 1
-1 0 0 0
-1 1 0 0
- */
         }
 }
 
