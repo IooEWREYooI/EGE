@@ -1,3 +1,5 @@
+package Variants;
+
 import java.io.*;
 import java.math.*;
 import java.text.DecimalFormat;
