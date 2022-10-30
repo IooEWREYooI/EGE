@@ -5,7 +5,6 @@ import java.util.*;
 public class Tasks_11466766 {
 
     public static void main(String[] args) throws IOException {
-
     }
     static void task25_27422(){
             int count = 0;
@@ -45,7 +44,7 @@ public class Tasks_11466766 {
             }
             System.out.println(summs);
         }
-    static void task26_35484() throws IOException{
+    static void task26_35484() throws IOException {
             String[] array = new String(new FileInputStream(new File("C:\\Users\\Яков Мануилов\\Desktop\\26.txt")).readAllBytes()).replaceAll("\\r","").split("\\n");
             List<Integer> list = new ArrayList<>();
             for (int i = 1; i < array.length; i++)
